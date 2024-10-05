@@ -1,0 +1,20 @@
+name: building_a_windows_desktop_app_in_flutter_metatube
+description: "In this tutorial, you will learn how to build a Windows desktop application using Flutter. Specifically, you'll be creating MetaTube, an app that simplifies handling YouTube video metadata."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
